@@ -6,8 +6,6 @@ const nextConfig = {
 
 module.exports ={
   images:{
-	domains:["ut-redc.com","github.com","static.cdn.asset.aparat.com","www.sketchappsources.com","y26uq11r8xr1zyp0d3inciqv-wpengine.netdna-ssl.com","docs.microsoft.com","img.freepik.com"],
-	loader: 'akamai',
-    path: '',
+	domains:["ut-redc.com","github.com","static.cdn.asset.aparat.com","www.sketchappsources.com","y26uq11r8xr1zyp0d3inciqv-wpengine.netdna-ssl.com","docs.microsoft.com","img.freepik.com"]
   }
 } 

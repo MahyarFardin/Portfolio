@@ -1,4 +1,3 @@
-import Image from "next/image";
 import img from "../../public/1.jpeg";
 
 const style = "mt-5 mb-5 tracking-widest text-gray-500";
@@ -35,7 +34,7 @@ export const About = () => {
           </p>
         </div>
         <div className="flex justify-center">
-          <Image className="mx-auto rounded-xl object-cover" src={img} alt="image of a computer"/>
+          <img className="mx-auto rounded-xl object-cover" src={img} alt="image of a computer"/>
         </div>
       </div>
     </div>

@@ -1,4 +1,3 @@
-import Image from "next/image";
 import { ProjectButton } from "../ProjectButton/ProjectButton.component";
 
 export const Projects = ({ repositories }) => {
@@ -10,7 +9,7 @@ export const Projects = ({ repositories }) => {
           return (
             <li key={idx} className="w-full h-96 relative group text-white rounded-2xl ">
 			  {console.log(repositorie.image)}
-			  <Image src={repositorie.image} layout="fill" objectFit="cover" className="rounded-2xl w-full h-full block" alt="project image" />
+			  <img src={repositorie.image} layout="fill" objectFit="cover" className="rounded-2xl w-full h-full block" alt="project image" />
               <div className="w-full h-full  bg-gradient-to-t from-gray-800     to-transparent bg-opacity-40 rounded-2xl group-hover:block absolute top-[50%] left-[50%] translate-x-[-50%] translate-y-[-50%] p-16">
                 <div className="items-center h-full  flex flex-col justify-between py-16">
                   <h1 className="text-3xl">{repositorie.title}</h1>
