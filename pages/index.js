@@ -15,6 +15,7 @@ export default function Home(props) {
     <html>
       <Head>
         <title>Mahyar FardinFar</title>
+		<script src="https://cdn.tailwindcss.com"></script>
       </Head>
 
 	  <body>
