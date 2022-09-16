@@ -35,7 +35,7 @@ export const About = () => {
           </p>
         </div>
         <div className="flex justify-center">
-          <Image className="mx-auto rounded-xl object-cover" src={img} />
+          <Image className="mx-auto rounded-xl object-cover" src={img} alt="image of a computer"/>
         </div>
       </div>
     </div>

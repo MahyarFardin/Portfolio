@@ -12,37 +12,39 @@ import {HiOutlineArrowCircleUp} from "react-icons/hi"
 const color = { color: "#3b82f6", margin: "auto" };
 export default function Home(props) {
   return (
-    <>
+    <html>
       <Head>
         <title>Mahyar FardinFar</title>
       </Head>
 
-      <div className="w-full h-full m-0">
-        <Navigation />
+	  <body>
+	   <div className="w-full h-full m-0">
+	    <Navigation />
 
-		<div id="hero">
+	    <div id="hero">
 		  <Hero/>
-		</div>
+	    </div>
 
-		<ConnectionBar />
+	    <ConnectionBar />
 
-		<div id="about">
-	      <About />
-		</div>
+	    <div id="about">
+		  <About />
+	    </div>
 
-		<div id="skills">
-          <Skills />
-		</div>
+	    <div id="skills">
+		  <Skills />
+	    </div>
+	    
+		<Projects repositories={props.repositories}/> 
+	    </div>
 
-        <Projects repositories={props.repositories}/> 
-      </div>
-
-	  <a href="#hero">
+	    <a href="#hero">
 		  <HiOutlineArrowCircleUp size={45} style={color} className="drop-shadow-2xl animate-bounce"/>
-	  </a>
+	    </a>
 
-	  <div className="h-6 w-full bg-blue-500"/>
-    </>
+	   <div className="h-6 w-full bg-blue-500"/>
+	  </body>
+    </html>
   );
 }
 
